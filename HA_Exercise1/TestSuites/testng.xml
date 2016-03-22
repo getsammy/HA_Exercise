@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HA_TestSuite" verbose="1">
+	<test name="TestExercise1">
+		<classes>
+			<class name="ha.exercise1.tests.TestProfileUpdate"/>			
+			<class name="ha.exercise1.tests.TestPurchase"/>
+			<class name="ha.exercise1.tests.TestEmptyCart"/>
+		</classes>
+	</test>
+</suite>
