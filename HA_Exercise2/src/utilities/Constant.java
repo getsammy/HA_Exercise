@@ -9,7 +9,4 @@ public class Constant
 {
 	public static final String strAPIKey = "GglMsAwxchESfRK367Qkx5TCHZ294HaraeN37Iob";
 	public static final String strOutputFormat = "json";
-
-	
-
 }

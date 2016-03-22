@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HA_TestSuite" verbose="1">
+	<test name="TestExercise2">
+		<classes>
+			<class name="ha.exercise2.tests.TestAPI_NREL">
+				<methods>
+					<include name="testFindStationID" />
+					<include name="testFindStationAddress" />
+				</methods>	
+			</class>		
+		</classes>
+	</test>
+</suite>
